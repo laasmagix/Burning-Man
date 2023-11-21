@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css?family=Anton:regular&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:regular&display=swap");
+/*Обнулення*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:focus,
+:active {
+  outline: none;
+}
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+button {
+  font-size: inherit;
+  font-weight: inherit;
+  cursor: pointer;
+  color: inherit;
+  background-color: transparent;
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+/* ===================================================================================== */
+body {
+  font-family: "Anton";
+  font-weight: 400;
+  line-height: 1;
+  font-size: 16px;
+}
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+[class*="__container"] {
+  max-width: 1200px;
+  margin: 0px auto;
+  padding: 0 15px;
+}
+._ibg {
+  position: relative;
+}
+._ibg img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  visibility: hidden;
+}
+/* ======================================== Page ======================================== */
+.page {
+  flex: 1 1 auto;
+}
+/* ================================================================================ */
